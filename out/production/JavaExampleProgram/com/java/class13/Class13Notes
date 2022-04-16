@@ -1,0 +1,12 @@
+String - Immutable
+Immutable - We cannot change value of String once we initialized in the memory
+String str1 = "Hello";
+// Here we're storing constant value "Hello" into the String variable so it'll get store into the String pool memory
+String str2 = new String("Hello);
+// Here we're creating an object of String with the value "Hello" so it'll get stored in heap memory
+String str3 = sc.nextLine();
+// Here we're trying to get value "Hello" from user using scanner class so it'll also get stored into heap memory
+==> When we compare String with '==' it'll just compare the memory location of two String
+==> When we create two String variables with the same constant value, java will create one value in String pool memory and
+both variables will point to the same memory location because it has same value. So comparing that variables using '=='
+will give you true

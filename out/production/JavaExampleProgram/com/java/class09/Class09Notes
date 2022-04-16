@@ -1,0 +1,14 @@
+increment/decrement operator
+++=plus 1
+--=minus 1
+
+
+Postfix Operator
+exp++;
+*operators comes after the variable
+first complete all other operations and the increment the value of variable
+
+Prefix Operator
+++exp;
+*operator comes before the variable
+*first increment the value of variable and then complete all others operations
